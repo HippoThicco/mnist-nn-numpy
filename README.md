@@ -54,6 +54,19 @@ This helped the model learn quickly in the beginning without overshooting the op
 
 ---
 
+## Training Progress
+
+Using a decaying learning rate strategy (α from 0.15 → 0.10), the model achieved:
+
+- Iteration 0:  Accuracy = 13.2%
+- Iteration 100: Accuracy = 61.5%
+- Iteration 300: Accuracy = 81.5%
+- Iteration 490: Accuracy = 85.2%
+
+This learning rate schedule helped the model converge faster in the early stages while maintaining stability in later epochs.
+
+---
+
 ## How to Run
 
 Make sure you have Python and NumPy installed:
